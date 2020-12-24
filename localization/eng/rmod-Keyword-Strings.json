@@ -1,0 +1,78 @@
+{
+	"keywords":[		
+	{	
+		"NAMES":[
+			"ресурс",
+			"ресурса",
+			"ресурсов",
+			"ресурсы"
+			],
+		"DESCRIPTION":"Топливо, Боеприпасы, Сталь, Алюминий"
+	},
+	{
+		"NAMES":[
+			"топливо",
+			"топлива"
+			],
+		"DESCRIPTION":"В конце каждого хода, если у вас есть #b5 Толива, вы можете потратить их на дополнительный ход. NL Это действие заканчивает ход."
+	},
+	{
+		"NAMES":[
+			"боеприпасы",
+			"боеприпасов",
+			"боеприпас",
+			"боеприпаса"
+			],
+		"DESCRIPTION":"Атаки наносят на 20% больше урона за каждый Боеприпас."
+	},
+	{
+		"NAMES":[
+			"сталь",
+			"стали"
+			],
+		"DESCRIPTION":"Навыки дают на 20% больше Защиты за каждую Сталь."
+	},
+	{
+		"NAMES":[
+			"алюминий",
+			"алюминия"
+			],
+		"DESCRIPTION":"В конце каждого хода, если у вас есть #b5 Алюминия, вы можете потратить их на #b1 #yAir #ysupport."
+	},
+	{
+		"NAMES":[
+			"pills"
+			],
+		"DESCRIPTION":"Reserves 1 HP for you when mortally wounded."
+	},
+	{
+		"NAMES":[
+			"concentrate fire"
+			],
+		"DESCRIPTION":"Increases the number of levels of damage taken and the same number of levels of damage taken at the beginning of a turn."
+	}
+	,
+	{
+		"NAMES":[
+			"extravulnerable"
+			],
+		"DESCRIPTION":"Damage taken increased by 50%."
+	}
+	,
+	{
+		"NAMES":[
+			"экспедиция",
+			"экспедиции"
+			],
+		"DESCRIPTION":"Даёт 1 случайный ресурс в начале каждого хода."
+	}
+	,
+	{
+		"NAMES":[
+			"AircraftSupport",
+			"aircraftsupport"
+			],
+		"DESCRIPTION":"The first 1 colorless card(s) played each turn is played twice."
+	}
+	]
+}

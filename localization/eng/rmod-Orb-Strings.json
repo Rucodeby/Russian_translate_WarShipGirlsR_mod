@@ -1,0 +1,6 @@
+{
+	"rmod:bomber":{
+		"NAME":"Bomber",
+		"DESCRIPTION":["Passive: At the start of your turn, deal #b"," damage. NL Evoke: Deal #b"," damage twice. Gain #b1 #yAluminium."]
+	}
+}

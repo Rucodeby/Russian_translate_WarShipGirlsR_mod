@@ -1,0 +1,45 @@
+{
+	"rmod:firstchargereward":{
+		"NAME":"First Charge Reward",
+		"FLAVOR":"A memorable first charge.",
+		"DESCRIPTIONS":[
+			"At the start of combat, gain #b1 of each #yResource."
+		]
+	},
+	"rmod:extraamm":{
+		"NAME":"Extra Ammunition",
+		"FLAVOR":"Learned to organize things",
+		"DESCRIPTIONS":[
+			"Ammunition limit changed to #b6."
+		]
+	},
+	"rmod:mogul":{
+		"NAME":"Da Lao",
+		"FLAVOR":"There is no one 648 can't solve。",
+		"DESCRIPTIONS":[
+			"Replaces First Charge Reward. At the start of battle, gain #b2 #yExpedition."
+		]
+	},
+	"rmod:equipmentrecovery":{
+		"NAME":"Equipment Recovery",
+		"FLAVOR":"Decomposition of a time.",
+		"DESCRIPTIONS":[
+			"For every 2 cards exhausted, gain #b1 random #yResource."
+		]
+	},
+	"rmod:quickrepair":{
+		"NAME":"Quick Repair",
+		"FLAVOR":"Instant bankruptcy.",
+		"DESCRIPTIONS":[
+			"When a debuff is obtained, it is immediately reduced by #b1."
+		]
+	},
+	"rmod:monthlycard":{
+		"NAME":"Monthly Supply",
+		"FLAVOR":"Every day 1++.",
+		"DESCRIPTIONS":[
+			"At start of turn, gain #b1 #yFuel."
+		]
+	}
+
+}

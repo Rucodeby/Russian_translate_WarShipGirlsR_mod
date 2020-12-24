@@ -1,0 +1,24 @@
+{
+	"rmod:noviceguide":{
+		"NAME":"Free to build",
+		"DESCRIPTIONS":[
+			"A woman suddenly appears in your sight, takes out a square machine and forces you to click on it. Finally, she says you can 'build' it for free. You decide...",
+			"There seems no danger and you decide to follow her instructions. NL ",
+			"The chair she was sitting on snapped and she fell over. You used the break to get away.",
+			"The machine glowed #ygold and seemed lucky.",
+			"The machine flashed #bblue and seemed ok.",
+			"The machine glowed white, as if out of luck.",
+			"You are not satisfied with the result. NL \"You can still build, but then you'll have to pay a price\" The woman said.",
+			"You're so happy with the result that you walk away satisfied.",
+			"You angrily hit the machine and the woman curses at you.",
+			"You built it again."
+			],
+		"OPTIONS":[
+			"[build] #gGain 1 random rarity card.",
+			"[leave]",
+			"[build] #gGain 1 random rarity card. #rLose 10 gold.",
+			"[lock] Requires #b10 #ygold."
+			]
+	}
+
+}

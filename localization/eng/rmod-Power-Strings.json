@@ -1,0 +1,98 @@
+{
+	"rmod:fuel":{
+		"NAME":"Fuel",
+		"DESCRIPTIONS":["Current amount： "," NL At the end of your turn, if you have #b5 Fuel: NL you can Lose #b5 #yFuel. NL Take an extra turn."]
+	},
+	"rmod:ammunition":{
+		"NAME":"Ammunition",
+		"DESCRIPTIONS":["Current amount： "," NL Attacks deal 20% more damage for each ammunition."]
+	},
+	"rmod:steel":{
+		"NAME":"Steel",
+		"DESCRIPTIONS":["Current amount： "," NL Gain 20% more Block for each Steel."]
+	},
+	"rmod:aluminum":{
+		"NAME":"Aluminum",
+		"DESCRIPTIONS":["Current amount： "," NL At the end of your turn, if you have #b5 #yAluminum: NL you can Lose #b5 #yAluminum. NL Gain #b1 #yAir #ysupport."]
+	},
+	"rmod:expeditionpower":{
+		"NAME":"Expedtion",
+		"DESCRIPTIONS":["At start of turn, gain #b"," random Resource."]
+	},
+	"rmod:chargemoneypower":{
+		"NAME":"Charge Money",
+		"DESCRIPTIONS":["At the start of your turn, add #b"," Diamond(s) to your hand."]
+	},
+	"rmod:diamondspower":{
+		"NAME":"Diamond",
+		"DESCRIPTIONS":["At the start of your turn, add ","Diamond(s) to hand."]
+	},
+	"rmod:presspower":{
+		"NAME":"Squeeze",
+		"DESCRIPTIONS":["At the end of your turn, gain #b"," #yWeak and #yFragile."]
+	},
+	"rmod:pillpower":{
+		"NAME":"Pills",
+		"DESCRIPTIONS":["Reserves 1 HP for you when mortally wounded."]
+	},
+	"rmod:goodsisterpower":{
+		"NAME":"Good Sisters",
+		"DESCRIPTIONS":["Fletcher *Components Exhaust. NL When Components are Exhausted: NL Add *The *Best *Destroyers to your hand from your Draw pile or draw "," card(s)."]
+	},
+	"rmod:sealspower":{
+		"NAME":"Seal",
+		"DESCRIPTIONS":["At the end of your turn, select #b"," card(s) from your draw pile, it costs 0 until played and is placed at the top of draw pile."]
+	},
+	"rmod:punchlinepower":{
+		"NAME":"The Key Attack",
+		"DESCRIPTIONS":["Whenever you play an Attack this turn, apply #b"," Vulnerable to the card's target."]
+	},
+	"rmod:aviationsupportpower":{
+		"NAME":"Air support",
+		"DESCRIPTIONS":["The first #b"," colorless card(s) played each turn is played twice."]
+	},
+	"rmod:shuttlebombingpower":{
+		"NAME":"Through Bombing",
+		"DESCRIPTIONS":["When a colorless card is played this turn, add "," copy of it to your draw pile."]
+	},
+	"rmod:stealaluminumpower":{
+		"NAME":"Steal Aluminum",
+		"DESCRIPTIONS":["At start of your turn, gain #b"," Aluminum."]
+	},
+	"rmod:fuelreducepower":{
+		"NAME":"Fuel Reduce",
+		"DESCRIPTIONS":["At start of your turn, lose #b"," Fuel."]
+	},
+	"rmod:concentratefirepower":{
+		"NAME":"Concentrate Fire",
+		"DESCRIPTIONS":["Increases the more damage is taken. NL At the start of your turn, take #b"," damage."]
+	},
+	"rmod:expenditionaryescortpower":{
+		"NAME":"Expedtion Escort",
+		"DESCRIPTIONS":["When you gain a resource, draw #b"," card(s)."]
+	},
+	"rmod:wasppower":{
+		"NAME":"Crazy Bee",
+		"DESCRIPTIONS":["When you take damage, Add #b"," aircraft(s) to your hand."]
+	},
+	"rmod:secretscriptpower":{
+		"NAME":"Secret",
+		"DESCRIPTIONS":["If you play at least 4 cards this turn, gain #b"," {E} next turn."]
+	},
+	"rmod:extravulnpower":{
+		"NAME":"Extra Vulnerable",
+		"DESCRIPTIONS":["Damage taken increased by 50%."]
+	},
+	"rmod:abidefaithpower":{
+		"NAME":"Unswervingly",
+		"DESCRIPTIONS":["At the end of your turn, if you have less than #b3 #yAmmunition, gain #b"," #yStrength. NL If you have less than #b3 #ySteel, gain #b"," #yDexterity."]
+	},
+	"rmod:windflowerpower":{
+		"NAME":"不屈的迎风花",
+		"DESCRIPTIONS":["打出的下","张攻击牌在本场战斗伤害增加20%。"]
+	},
+	"rmod:mineteampower":{
+		"NAME":"The Torpedo Team",
+		"DESCRIPTIONS":["At the start of your turn, Apply #b"," #yVulnerable to a random enemy."]
+	}
+}

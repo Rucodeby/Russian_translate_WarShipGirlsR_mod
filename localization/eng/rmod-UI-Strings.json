@@ -1,0 +1,36 @@
+{
+	"rmod:SupriseAttacksAction":{
+		"TEXT":[
+			"Select 1 card to play."
+		]
+	},
+	"rmod:NoviceGuideText":{
+		"TEXT":[
+			"The golden light flash",
+			"The blue light flash",
+			"The white light flash"
+			]
+	},
+	"rmod:aluminumLimit":{
+		"TEXT":[
+			"Aluminum to up to 5 layers, no more."
+			]
+	},
+	"rmod:ammunitionLimit":{
+		"TEXT":[
+			"Ammunition to up to ",
+			" layers, no more."
+			]
+	},
+	"rmod:steelLimit":{
+		"TEXT":[
+			"Steel to up to 5 layers, no more."
+			]
+	},
+	"rmod:fuelLimit":{
+		"TEXT":[
+			"Fuel to up to 5 layers, no more."
+			]
+	}
+
+}

@@ -1,0 +1,346 @@
+{
+	"rmod:strick": {
+		"NAME": "Удар",
+		"DESCRIPTION": "Наносит !D! урона."
+	},
+	"rmod:defend":{
+		"NAME": "Оборона",
+		"DESCRIPTION": "Даёт !B! Защиты."
+	},
+	"rmod:basicallowance":{
+		"NAME":"Базовое пособие",
+		"DESCRIPTION":"Даёт 1 каждого Ресурса, который меньше !M!."
+	},
+	"rmod:maingunfire":{
+		"NAME":"Большая семёрка",
+		"DESCRIPTION":"Наносит !D! урона. NL Отнимает 1 Боеприпас. NL Наносит !D! урона если вы теряли Боеприпасы."
+	},
+	"rmod:fuelsupply":{
+		"NAME":"Поставка топлива",
+		"DESCRIPTION":"Даёт !M! Топлива."
+	},
+	"rmod:ammunitionsupply":{
+		"NAME":"Поставка боеприпасов",
+		"DESCRIPTION":"Даёт !M! Боеприпаса."
+	},
+	"rmod:steelsupply":{
+		"NAME":"Поставка стали",
+		"DESCRIPTION":"Даёт !M! Стали."
+	},
+	"rmod:aluminumsupply":{
+		"NAME":"Поставка алюминия",
+		"DESCRIPTION":"Даёт !M! Алюминия."
+	},
+	"rmod:launchingtorpedo":{
+		"NAME":"Тревога Наршевика",
+		"DESCRIPTION":"Наносит !D! урона. NL Отнимает 1 Боеприпас. NL Накладывает !M! Уязвимости если вы теряли Боеприпасы."
+	},
+	"rmod:maintain":{
+		"NAME":"Выплата компенсации",
+		"DESCRIPTION":"Даёт !M! каждого Ресурса. NL Сжигается."
+	},
+	"rmod:royalracing":{
+		"NAME":"Royal Racing",
+		"DESCRIPTION":"Вы берёте !M! карты. NL Отнимает 1 Топливо. NL Уменьшает стоимость взятых карт на 1 на этот ход если вы теряли Боеприпасы."
+	},
+	"rmod:expedition":{
+		"NAME":"Частая экспедиция",
+		"DESCRIPTION":"В начале каждого хода, NL Даёт !M! случайных Ресурсов. NL Может быть улучшенна 3 раза."
+	},
+	"rmod:auspiciousomen":{
+		"NAME":"Auspicious",
+		"DESCRIPTION":"Снимает ВСЕ отриц. эффекты,then remove Y buff. NL (Y is the number of debuff removed - X)",
+		"UPGRADE_DESCRIPTION":"Remove all debuff,then remove Y buff. NL (Y is the number of debuff removed - X-1)"
+	},
+	"rmod:timeschanged":{
+		"NAME":"Time Changed",
+		"DESCRIPTION":"Deal !D! damage X times. NL (X is the number of Vulnerable of the enemy.) NL Remove all Vulnerable."
+	},
+	"rmod:diamond":{
+		"NAME":"Diamond",
+		"DESCRIPTION":"Retain. NL Upgrade 1 card in hand this combat. NL Exhaust.",
+		"UPGRADE_DESCRIPTION":" 保留 。 NL 获得 !B! 点 格挡 。"
+	},
+	"rmod:chargemoney":{
+		"NAME":"Charge Money",
+		"DESCRIPTION":"At the start of your turn, NL Add 1 Diamond into your hand."
+	},
+	"rmod:aviationsupport":{
+		"NAME":"Aviation Support",
+		"DESCRIPTION":"Deal !D! damage to a random enemy 6 times. NL Exhaust."
+	},
+	"rmod:capitalist":{
+		"NAME":"The Capitalists",
+		"DESCRIPTION":"Replenish Ammunition and Steel to 5. NL At the end of this turn, NL Gain !M! Weak. NL Gain !M! Vulnerable. NL Exhaust."
+	},
+	"rmod:desperatesituation":{
+		"NAME":"Desperate Situation",
+		"DESCRIPTION":"Gain !M! Pills. NL Ethereal."
+	},
+	"rmod:luckystar":{
+		"NAME":"Lucky Star",
+		"DESCRIPTION":"Deal !D! damage. NL 50% chance to repeat."
+	},
+	"rmod:unsinkable":{
+		"NAME":"Unsinkable Warship",
+		"DESCRIPTION":"Gain !B! Block. NL Lose 1 Steel. NL If you lost Steel, NL Gain !B! Block."
+	},
+	"rmod:fletcherpendant":{
+		"NAME":"Fletcher Component",
+		"DESCRIPTION":"Deal !D! damage to a random enemy."
+	},
+	"rmod:fletcher":{
+		"NAME":"The Best Destroyers",
+		"DESCRIPTION":"For ALL Fletcher Components, NL Deal !D! damage to ALL enemies. NL Gain !B! Block."
+	},
+	"rmod:heivgo":{
+		"NAME":"Italian Design",
+		"DESCRIPTION":"Lose !M! Steel. NL If you lost Steel, NL Gain 1 Buffer."
+	},
+	"rmod:salvage":{
+		"NAME":"Salvage",
+		"DESCRIPTION":"Deal !D! damage. NL If Fatal, NL (Add Fletcher Component to your deck. [80%]) NL (Add The Best Destroyers to your deck. [20%])",
+		"UPGRADE_DESCRIPTION":"Deal !D! damage. NL If Fatal, NL (Add Fletcher Component to your deck. [80%]) NL (Add The Best Destroyers to your deck. [20%]) NL 50% chance for the card to be Upgraded."
+	},
+	"rmod:ring":{
+		"NAME":"Ring",
+		"DESCRIPTION":"Retain. NL Exhaust all Statuses and Curses. NL For each Diamond exhausted, NL Apply !M! Weak to ALL enemies."
+	},
+	"rmod:goodsister":{
+		"NAME":"Good Sisters",
+		"DESCRIPTION":"Fletcher Components Exhaust. NL When Components are Exhausted: NL Add The Best Destroyers to your hand from your Draw pile. NL OR. NL Draw !M! card."
+	},
+	"rmod:circuitoustactics":{
+		"NAME":"Tactical Manoeuvre",
+		"DESCRIPTION":"Draw !M! cards. NL Lose 1 Fuel. NL If you lost Fuel, NL Add 2 random cards to your hand from the Discard pile."
+	},
+	"rmod:openingtorpedo":{
+		"NAME":"Opening Torpedo",
+		"DESCRIPTION":"Innate. NL Deal !D! damage to ALL enemies. NL Apply !M! Vulnerable to ALL enemies. NL Exhaust."
+	},
+	"rmod:seals":{
+		"NAME":"The Seal",
+		"DESCRIPTION":"At the end of your turn, NL Select 1 card from your draw pile, it costs 0 until played and is placed at the top of draw pile.",
+		"UPGRADE_DESCRIPTION":"Innate. NL At the end of your turn, NL Select 1 card from your draw pile, it costs 0 until played and is placed at the top of draw pile."
+	},
+	"rmod:lonelyqueen":{
+		"NAME":"The Lonely Queen Df the North",
+		"DESCRIPTION":"Apply !M! Weak to ALl enemies. NL Lose 1 Steel. NL If you lost Steel, NL ALL enemies lose !M! Strength. NL Exhaust."
+	},
+	"rmod:punchline":{
+		"NAME":"The Key Attack",
+		"DESCRIPTION":"Whenever you play an Attack this turn, NL Apply !M! Vulnerable to the card's target."
+	},
+	"rmod:saltedfish":{
+		"NAME":"Salted Fish",
+		"DESCRIPTION":"Unplayable. NL At the end of your turn, if you played less than !M! attacks, NL Gain 2 of each Resource."
+	},
+	"rmod:wife":{
+		"NAME":"Lexington Power",
+		"DESCRIPTION":"Gain [E] . NL Lose 1 Fuel. NL If you lost Fuel, NL The random card with the highest cost in your hand consumes 0 energy this turn. NL Exhaust.",
+		"UPGRADE_DESCRIPTION":"Gain [E] . NL Lose 1 Fuel. NL If you lost Fuel, NL The random card with the highest cost in your hand consumes 0 energy this turn."
+	},
+	"rmod:wolves":{
+		"NAME":"Wolf Pack Tactics",
+		"DESCRIPTION":"Deal !D! damage to ALL enemies. NL Apply !M! Vulnerable to ALL enemies."
+	},
+	"rmod:highspeedshooting":{
+		"NAME":"High Speed Shooting",
+		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Ammunition. NL If you lost Ammunition, NL Add a copy of this card to your hand."
+	},
+	"rmod:aviationdawn":{
+		"NAME":"Aviation Dawn",
+		"DESCRIPTION":"Add 1 Aircraft to your hand. NL Lose 1 Aluminum. NL If you lost Aluminium, NL add !M! aircraft to hand."
+	},
+	"rmod:diaomin":{
+		"NAME":"Fleet Training",
+		"DESCRIPTION":"Lose 1 Ammunition and Steel. NL Gain !M! Strength and Dexterity."
+	},
+	"rmod:smokecover":{
+		"NAME":"Smoke Cover",
+		"DESCRIPTION":"Gain !B! Block. NL Lose 1 Steel. NL If you lost Steel, NL Gain !M! Blur."
+	},
+	"rmod:overbreakdown":{
+		"NAME":"Over Breakdown",
+		"DESCRIPTION":"Gain !B! Block. NL Gain 1 Steel."
+	},
+	"rmod:gendarmerie":{
+		"NAME":"Military Police",
+		"DESCRIPTION":"Gain !B! Block. NL End your turn."
+	},
+	"rmod:generalist":{
+		"NAME":"Versatile Cruiser",
+		"DESCRIPTION":"Deal !D! damage. NL Gain !B! Block. NL Draw !M! card."
+	},
+	"rmod:bomber":{
+		"NAME":"aircraft",
+		"DESCRIPTION":"Deal !D! damage. NL Exhaust.",
+		"UPGRADE_DESCRIPTION":"Deal !D! damage to All enemies. NL Exhaust."
+	},
+	"rmod:supportaircraftcarrier":{
+		"NAME":"Support Aircraft Carrier",
+		"DESCRIPTION":"Gain 1 Aluminum. NL Add 1 random uncommon colorless card to your hand. NL It costs 0 this turn.",
+		"UPGRADE_DESCRIPTION":"Gain 1 Aluminum. NL Add 1 random rare colorless card to to your hand. NL It costs 0 this turn."
+	},
+	"rmod:shuttlebombing":{
+		"NAME":"Through Bombing",
+		"DESCRIPTION":"When a colorless card is played this turn, add a copy of it to your draw pile.",
+		"UPGRADE_DESCRIPTION":"Retain. NL When a colorless card is played this turn, add a copy of it to your draw pile."
+	},
+	"rmod:stealaluminum":{
+		"NAME":"Steal Aluminum",
+		"DESCRIPTION":"At start of your turn, NL Lose 1 Fuel. NL Gain !M! Aluminum."
+	},
+	"rmod:bulid":{
+		"NAME":"Build",
+		"DESCRIPTION":"Lose 1 of each Resource. NL Add 1 card to your hand from !M! cards of different rarities 3 times.."
+	},
+	"rmod:robin":{
+		"NAME":"Robin",
+		"DESCRIPTION":"Lose 1 Aluminum. NL If you lost Aluminium, NL Add 1 Aircraft that damage !M! the number of Aircraft you play this combat. NL (Minimum 5)",
+		"EXTENDED_DESCRIPTION":["(Deal !D! damage.)"]
+	},
+	"rmod:victimresponsibility":{
+		"NAME":"Injured Characters",
+		"DESCRIPTION":"Gain !B! Block X times. (X is the number of aluminum.)"
+	},
+	"rmod:advancebysurprise":{
+		"NAME":"Assault",
+		"DESCRIPTION":"Lose up to !M! Aluminum. NL Add aircraft with twice the amount of lost Aluminum to hand."
+	},
+	"rmod:lastglory":{
+		"NAME":"Last Glory",
+		"DESCRIPTION":"Deal !D! damage. NL Gain 2 Ammunition. NL At the end of your turn, spend all remaining [E] . NL Reduce this card's cost this combat for all spent [E] ."
+	},
+	"rmod:supportescort":{
+		"NAME":"Support Escort",
+		"DESCRIPTION":"Gain !B! Block. NL Lose 1 Steel. NL If you lost Steel, NL When an attack is played this turn, gain !M! Block."
+	},
+	"rmod:selfconfidence":{
+		"NAME":"Mysterious Confidence",
+		"DESCRIPTION":"Gain 1 Vulnerable. NL Deal !D! damage to All enemies."
+	},
+	"rmod:aggressivemary":{
+		"NAME":"Aggressive Mary",
+		"DESCRIPTION":"Deal !D! damage. NL The less life, the more damage."
+	},
+	"rmod:combined":{
+		"NAME":"Joint Operations",
+		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Fuel. NL Draw X cards. NL (X is the number of the types of the cards played in this turn.)",
+		"EXTENDED_DESCRIPTION":["(draw !B! cards.)"]
+	},
+	"rmod:tearstotiara":{
+		"NAME":"Triumph",
+		"DESCRIPTION":"Lose !D! HP."
+	},
+	"rmod:rockthrower":{
+		"NAME":"Sling",
+		"DESCRIPTION":"Deal !D! damage. NL Apply !M! Vulnerable. NL Double the effect in elite room and lose 1 Ammunition.",
+		"EXTENDED_DESCRIPTION":["Deal !D! damage. NL Apply 2 Vulnerable. NL Double the effect in elite room and lose 1 Ammunition.","Deal !D! damage. NL Apply 4 Vulnerable. NL Double the effect in elite room and lose 1 Ammunition."]
+	},
+	"rmod:inadvertentlyimpact":{
+		"NAME":"Inadvertently impact",
+		"DESCRIPTION":"Deals damage equal to half your total Block.",
+		"UPGRADE_DESCRIPTION":"Deals damage equal to 80% of your total Block. NL Gain !B! Gold.",
+		"EXTENDED_DESCRIPTION":["（Deals !D! damage.）"]
+	},
+	"rmod:firesupport":{
+		"NAME":"Fire Support",
+		"DESCRIPTION":"Deal !D! damage. NL Gain !M! Ammunition."
+	},
+	"rmod:concentratefire":{
+		"NAME":"Concentrate Fire",
+		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Ammunition. NL Apply !M! Concentrate Fire."
+	},
+	"rmod:expeditionaryescort":{
+		"NAME":"The Expedition Escort",
+		"DESCRIPTION":"When you gain Resources ,draw 1 card."
+	},
+	"rmod:ridicule":{
+		"NAME":"Mysterious Ridicule",
+		"DESCRIPTION":"Innate. NL Gain 2 Vulnerable. NL Gain [E] [E] . NL Draw !M! cards. NL Exhaust."
+	},
+	"rmod:highspeedmaneuver":{
+		"NAME":"High Speed Maneuver",
+		"DESCRIPTION":"Gain !B! Block !M! times. NL Exhaust. NL Lose 1 Steel. NL NL If you lost Steel, NL This card doesn't Exhaust."
+	},
+	"rmod:wasp":{
+		"NAME":"Crazy Bee",
+		"DESCRIPTION":"Whenever you get damage, NL Add !M! aircraft to hand."
+	},
+	"rmod:supriseattacks":{
+		"NAME":"Suprise Attacks",
+		"DESCRIPTION":"Select a card fromm the exhaust pile and play it !M! time(s),and remove it from exhaust pile."
+	},
+	"rmod:sl":{
+		"NAME":"Save and load",
+		"DESCRIPTION":"Shuffle ALL your cards into your draw pile. NL Draw !M! cards."
+	},
+	"rmod:u235":{
+		"NAME":"U235",
+		"DESCRIPTION":"Lose !M! HP. NL Gain 5 Fuel. NL Exhaust."
+	},
+	"rmod:secretscript":{
+		"NAME":"Secret",
+		"DESCRIPTION":"If you play at least 4 cards in this turn, NL Gain [E] next turn.",
+		"UPGRADE_DESCRIPTION":"If you play at least 4 cards in this turn, NL Gain [E] [E] next turn."
+	},
+	"rmod:acesubmarine":{
+		"NAME":"Ace Submarine",
+		"DESCRIPTION":"Deal !D! damage to ALL enemies. NL Apply !M! ExtraVulnerable to ALL enemies."
+	},
+	"rmod:abidefaith":{
+		"NAME":"Unswervingly",
+		"DESCRIPTION":"At the end of your turn, if you have less than 3 Ammunition, NL Gain !M! Strength. NL If you have less than 3 Fuel, NL Gain !M! Dexterity."
+	},
+	"rmod:windflower":{
+		"NAME":"Wind Flower",
+		"DESCRIPTION":"The next !M! Attacks cost 0. NL Exhaust. NL Lose 1 Ammunition. NL If you lost Ammunition, this card doesn't Exhaust."
+	},
+	"rmod:diamondstrike":{
+		"NAME":"Diamond Strike",
+		"DESCRIPTION":"Deal !D! damage. NL Add !M! Diamond to hand."
+	},
+	"rmod:mineteam":{
+		"NAME":"The Torpedo Team",
+		"DESCRIPTION":"At start of your turn, apply !M! Vulnerable to a random enemy."
+	},
+	"rmod:goodfighter":{
+		"NAME":"A Skilled Fighter",
+		"DESCRIPTION":"Deal !D! damage to random enemy 2X times."
+	},
+	"rmod:spoils":{
+		"NAME":"Spoils Activity",
+		"DESCRIPTION":"Lose All Resources. NL Gain twice as much gold as the amount of lost Resources. NL Exhaust. "
+	},
+	"rmod:slowdown":{
+		"NAME":"Slowly Operation",
+		"DESCRIPTION":"Add your previous !M! card(s) from the discard pile to hand."
+	},
+	"rmod:garrisonisland":{
+		"NAME":"Garrison Island",
+		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Ammunition. NL If you lost Ammunition, NL Gain !M! Strength. NL At the end of this turn, lose !M! Strength."
+	},
+	"rmod:guardianhero":{
+		"NAME":"A Guardian Of Hero",
+		"DESCRIPTION":"Gain !B! Block. NL Decrease this card's Block by !M! this combat. NL Exhausts after being played 5 times."
+	},
+	"rmod:intelligenceanalysis":{
+		"NAME":"Intelligence Analysis",
+		"DESCRIPTION":"Deal !D! damage to ALL enemies. NL If the enemy intends to attack, apply !M! Vulnerable. NL Otherwise, apply !M! Weak."
+	},
+	"rmod:attackagain":{
+		"NAME":"Attack Again",
+		"DESCRIPTION":"Lose 5 Fuel ,Take an extra turn after this one."
+	},
+	"rmod:letitgo":{
+		"NAME":"Let it go",
+		"DESCRIPTION":"Lose 1 Fuel ,then let it go.",
+		"UPGRADE_DESCRIPTION":"Lose 1 Aluminum ,then let it go.",
+		"EXTENDED_DESCRIPTION":["Lose 1 Fuel /Aluminum ,then let it go."]
+	},
+	"rmod:callsupport":{
+		"NAME":"Call For Support",
+		"DESCRIPTION":"Lose 5 Aluminum ,Gain 1 AircraftSupport ."
+	}
+}
