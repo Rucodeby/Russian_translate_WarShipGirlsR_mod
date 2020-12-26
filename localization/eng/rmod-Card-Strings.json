@@ -48,54 +48,54 @@
 		"DESCRIPTION":"В начале каждого хода, NL Даёт !M! случайных Ресурсов. NL Может быть улучшенна 3 раза."
 	},
 	"rmod:auspiciousomen":{
-		"NAME":"Auspicious",
-		"DESCRIPTION":"Снимает ВСЕ отриц. эффекты,then remove Y buff. NL (Y is the number of debuff removed - X)",
-		"UPGRADE_DESCRIPTION":"Remove all debuff,then remove Y buff. NL (Y is the number of debuff removed - X-1)"
+		"NAME":"Благоприятный",
+		"DESCRIPTION":"Снимает ВСЕ отриц. эффекты, затем снимает Y пол эффектов. NL (Y это количество снятых отриц эффектов - X)",
+		"UPGRADE_DESCRIPTION":"Снимает ВСЕ отриц. эффекты, затем снимает Y пол эффектов. NL (Y это количество снятых отриц эффектов - X-1)"
 	},
 	"rmod:timeschanged":{
-		"NAME":"Time Changed",
-		"DESCRIPTION":"Deal !D! damage X times. NL (X is the number of Vulnerable of the enemy.) NL Remove all Vulnerable."
+		"NAME":"Время перемен",
+		"DESCRIPTION":"Наносит !D! урона X раз. NL (X это количество Уязвимости на враге.) NL Снимает ВСЮ Уязвимость."
 	},
 	"rmod:diamond":{
-		"NAME":"Diamond",
-		"DESCRIPTION":"Retain. NL Upgrade 1 card in hand this combat. NL Exhaust.",
+		"NAME":"Алмаз",
+		"DESCRIPTION":"Оставляется. NL Улучшает 1 карту в руке до конца боя. NL Сжигается.",
 		"UPGRADE_DESCRIPTION":" 保留 。 NL 获得 !B! 点 格挡 。"
 	},
 	"rmod:chargemoney":{
-		"NAME":"Charge Money",
-		"DESCRIPTION":"At the start of your turn, NL Add 1 Diamond into your hand."
+		"NAME":"Сбор денег",
+		"DESCRIPTION":"В начале каждого хода, NL Добавляет 1 *Алмаз в руку."
 	},
 	"rmod:aviationsupport":{
-		"NAME":"Aviation Support",
-		"DESCRIPTION":"Deal !D! damage to a random enemy 6 times. NL Exhaust."
+		"NAME":"Огневая поддержка",
+		"DESCRIPTION":"Наносит !D! урона случайному врагу 6 раз. NL Сжигается."
 	},
 	"rmod:capitalist":{
-		"NAME":"The Capitalists",
-		"DESCRIPTION":"Replenish Ammunition and Steel to 5. NL At the end of this turn, NL Gain !M! Weak. NL Gain !M! Vulnerable. NL Exhaust."
+		"NAME":"Капиталисты",
+		"DESCRIPTION":"Пополняет Алюминий и Сталь до 5. NL Даёт !M! Слабости. NL Даёт !M! Уязвимости NL в конце хода. NL Сжигается."
 	},
 	"rmod:desperatesituation":{
-		"NAME":"Desperate Situation",
-		"DESCRIPTION":"Gain !M! Pills. NL Ethereal."
+		"NAME":"Безнадёжная ситуация",
+		"DESCRIPTION":"Эфирная. NL Даёт !M! Pills."
 	},
 	"rmod:luckystar":{
-		"NAME":"Lucky Star",
-		"DESCRIPTION":"Deal !D! damage. NL 50% chance to repeat."
+		"NAME":"Счастливая звезда",
+		"DESCRIPTION":"Наносит !D! урона. NL 50% шанс повторить."
 	},
 	"rmod:unsinkable":{
-		"NAME":"Unsinkable Warship",
-		"DESCRIPTION":"Gain !B! Block. NL Lose 1 Steel. NL If you lost Steel, NL Gain !B! Block."
+		"NAME":"Непотопляемый корабль",
+		"DESCRIPTION":"Даёт !B! Защиты. NL Отнимает 1 Сталь. NL Даёт !B! Защиты если вы теряли Сталь."
 	},
 	"rmod:fletcherpendant":{
-		"NAME":"Fletcher Component",
-		"DESCRIPTION":"Deal !D! damage to a random enemy."
+		"NAME":"Компонент стрелка",
+		"DESCRIPTION":"Наносит !D! урона случайному врагу."
 	},
 	"rmod:fletcher":{
-		"NAME":"The Best Destroyers",
-		"DESCRIPTION":"For ALL Fletcher Components, NL Deal !D! damage to ALL enemies. NL Gain !B! Block."
+		"NAME":"Лучшие уничтожители",
+		"DESCRIPTION":"For ALL Fletcher Components, NL Наносит !D! урона ВСЕМ врагам. NL Даёт !B! Защиты."
 	},
 	"rmod:heivgo":{
-		"NAME":"Italian Design",
-		"DESCRIPTION":"Lose !M! Steel. NL If you lost Steel, NL Gain 1 Buffer."
+		"NAME":"Итальянский дизайн",
+		"DESCRIPTION":"Отнимает !M! Стали. NL Даёт 1 Буфер, если вы теряли Сталь."
 	},
 	"rmod:salvage":{
 		"NAME":"Salvage",
