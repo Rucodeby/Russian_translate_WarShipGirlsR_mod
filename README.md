@@ -1,1 +1,1 @@
-# Russian_translate_WarShipGirlsZ_mod
+# Russian_translate_WarShipGirlsR_mod
