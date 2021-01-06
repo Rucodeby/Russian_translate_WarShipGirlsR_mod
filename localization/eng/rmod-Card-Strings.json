@@ -13,7 +13,7 @@
 	},
 	"rmod:maingunfire":{
 		"NAME":"Большая семёрка",
-		"DESCRIPTION":"Наносит !D! урона. NL Отнимает 1 Боеприпас. NL Наносит !D! урона если вы теряли Боеприпасы."
+		"DESCRIPTION":"Наносит !D! урона. NL Тратит 1 Боеприпас. NL Наносит !D! урона."
 	},
 	"rmod:fuelsupply":{
 		"NAME":"Поставка топлива",
@@ -33,7 +33,7 @@
 	},
 	"rmod:launchingtorpedo":{
 		"NAME":"Тревога Наршевика",
-		"DESCRIPTION":"Наносит !D! урона. NL Отнимает 1 Боеприпас. NL Накладывает !M! Уязвимости если вы теряли Боеприпасы."
+		"DESCRIPTION":"Наносит !D! урона. NL Тратит 1 Боеприпас. NL Накладывает !M! Уязвимости."
 	},
 	"rmod:maintain":{
 		"NAME":"Выплата компенсации",
@@ -41,16 +41,16 @@
 	},
 	"rmod:royalracing":{
 		"NAME":"Royal Racing",
-		"DESCRIPTION":"Вы берёте !M! карты. NL Отнимает 1 Топливо. NL Уменьшает стоимость взятых карт на 1 на этот ход если вы теряли Боеприпасы."
+		"DESCRIPTION":"Вы берёте !M! карты. NL Тратит 1 Топливо. NL Уменьшает стоимость взятых карт на 1 на этот ход."
 	},
 	"rmod:expedition":{
 		"NAME":"Частая экспедиция",
-		"DESCRIPTION":"В начале каждого хода, NL Даёт !M! случайных Ресурсов. NL Может быть улучшенна 3 раза."
+		"DESCRIPTION":"В начале каждого хода, NL Даёт !M! случайных Ресурсов. NL Может быть улучшена 3 раза."
 	},
 	"rmod:auspiciousomen":{
 		"NAME":"Благоприятный",
-		"DESCRIPTION":"Снимает ВСЕ отриц. эффекты, затем снимает Y пол эффектов. NL (Y это количество снятых отриц эффектов - X)",
-		"UPGRADE_DESCRIPTION":"Снимает ВСЕ отриц. эффекты, затем снимает Y пол эффектов. NL (Y это количество снятых отриц эффектов - X-1)"
+		"DESCRIPTION":"Снимает ВСЕ отриц. эффекты, затем снимает Y пол. эффектов. NL (Y это количество снятых отриц эффектов - X)",
+		"UPGRADE_DESCRIPTION":"Снимает ВСЕ отриц. эффекты, затем снимает Y пол. эффектов. NL (Y это количество снятых отриц эффектов - X-1)"
 	},
 	"rmod:timeschanged":{
 		"NAME":"Время перемен",
@@ -66,16 +66,16 @@
 		"DESCRIPTION":"В начале каждого хода, NL Добавляет 1 *Алмаз в руку."
 	},
 	"rmod:aviationsupport":{
-		"NAME":"Огневая поддержка",
+		"NAME":"Расстрел",
 		"DESCRIPTION":"Наносит !D! урона случайному врагу 6 раз. NL Сжигается."
 	},
 	"rmod:capitalist":{
 		"NAME":"Капиталисты",
-		"DESCRIPTION":"Пополняет Алюминий и Сталь до 5. NL Даёт !M! Слабости. NL Даёт !M! Уязвимости NL в конце хода. NL Сжигается."
+		"DESCRIPTION":"Пополняет Алюминий и Сталь до 5. NL Даёт !M! Слабости. NL Даёт !M! Уязвимости, в конце хода. NL Сжигается."
 	},
 	"rmod:desperatesituation":{
 		"NAME":"Безнадёжная ситуация",
-		"DESCRIPTION":"Эфирная. NL Даёт !M! Pills."
+		"DESCRIPTION":"Эфирная. NL Даёт !M! Таблеточки."
 	},
 	"rmod:luckystar":{
 		"NAME":"Счастливая звезда",
@@ -83,7 +83,7 @@
 	},
 	"rmod:unsinkable":{
 		"NAME":"Непотопляемый корабль",
-		"DESCRIPTION":"Даёт !B! Защиты. NL Отнимает 1 Сталь. NL Даёт !B! Защиты если вы теряли Сталь."
+		"DESCRIPTION":"Даёт !B! Защиты. NL Тратит 1 Сталь. NL Даёт !B! Защиты."
 	},
 	"rmod:fletcherpendant":{
 		"NAME":"Компонент стрелка",
@@ -91,256 +91,256 @@
 	},
 	"rmod:fletcher":{
 		"NAME":"Лучшие уничтожители",
-		"DESCRIPTION":"For ALL Fletcher Components, NL Наносит !D! урона ВСЕМ врагам. NL Даёт !B! Защиты."
+		"DESCRIPTION":"За ВСЕ *Компоненты *стрелка, NL Наносит !D! урона ВСЕМ врагам. NL Даёт !B! Защиты."
 	},
 	"rmod:heivgo":{
 		"NAME":"Итальянский дизайн",
-		"DESCRIPTION":"Отнимает !M! Стали. NL Даёт 1 Буфер, если вы теряли Сталь."
+		"DESCRIPTION":"Тратит !M! Стали. NL Даёт 1 Буфер."
 	},
 	"rmod:salvage":{
-		"NAME":"Salvage",
-		"DESCRIPTION":"Deal !D! damage. NL If Fatal, NL (Add Fletcher Component to your deck. [80%]) NL (Add The Best Destroyers to your deck. [20%])",
-		"UPGRADE_DESCRIPTION":"Deal !D! damage. NL If Fatal, NL (Add Fletcher Component to your deck. [80%]) NL (Add The Best Destroyers to your deck. [20%]) NL 50% chance for the card to be Upgraded."
+		"NAME":"Переработка",
+		"DESCRIPTION":"Наносит !D! урона. NL Если Казнит, NL (Добавляет Компонент стрелка в колоду. [80%]) NL (Добавляет Лучших уничтожителей в колоду. [20%])",
+		"UPGRADE_DESCRIPTION":"Наносит !D! урона. NL Если Казнит, NL (Добавляет Компонент стрелка в колоду. [80%]) NL (Добавляет Лучших уничтожителей в колоду. [20%]) NL 50% шанс что карта будет улучшена."
 	},
 	"rmod:ring":{
-		"NAME":"Ring",
-		"DESCRIPTION":"Retain. NL Exhaust all Statuses and Curses. NL For each Diamond exhausted, NL Apply !M! Weak to ALL enemies."
+		"NAME":"Кольцо",
+		"DESCRIPTION":"Оставляется. NL Сжигает ВСЕ Статусы и Проклятья. NL За каждый Сожжённый Алмаз, NL Накладывает !M! Слабости ВСЕМ врагам."
 	},
 	"rmod:goodsister":{
-		"NAME":"Good Sisters",
-		"DESCRIPTION":"Fletcher Components Exhaust. NL When Components are Exhausted: NL Add The Best Destroyers to your hand from your Draw pile. NL OR. NL Draw !M! card."
+		"NAME":"Хорошие Сестрёнки",
+		"DESCRIPTION":"Компоненты стрелка Сжигаются. NL Добавляет Лучших уничтожителей, когда сжигаются Компоненты или вы берёте !M! карты."
 	},
 	"rmod:circuitoustactics":{
-		"NAME":"Tactical Manoeuvre",
-		"DESCRIPTION":"Draw !M! cards. NL Lose 1 Fuel. NL If you lost Fuel, NL Add 2 random cards to your hand from the Discard pile."
+		"NAME":"Тактический манёвр",
+		"DESCRIPTION":"Вы берёте !M! карты. NL Тратит 1 Топливо. NL Возьмите 2 случайные карты из стопки сброса в руку."
 	},
 	"rmod:openingtorpedo":{
 		"NAME":"Opening Torpedo",
-		"DESCRIPTION":"Innate. NL Deal !D! damage to ALL enemies. NL Apply !M! Vulnerable to ALL enemies. NL Exhaust."
+		"DESCRIPTION":"Начальная. NL Наносит !D! урона и накладывает !M! Уязвимости ВСЕМ врагам. NL Сжигается."
 	},
 	"rmod:seals":{
 		"NAME":"The Seal",
 		"DESCRIPTION":"At the end of your turn, NL Select 1 card from your draw pile, it costs 0 until played and is placed at the top of draw pile.",
-		"UPGRADE_DESCRIPTION":"Innate. NL At the end of your turn, NL Select 1 card from your draw pile, it costs 0 until played and is placed at the top of draw pile."
+		"UPGRADE_DESCRIPTION":"Начальная. NL At the end of your turn, NL Select 1 card from your draw pile, it costs 0 until played and is placed at the top of draw pile."
 	},
 	"rmod:lonelyqueen":{
 		"NAME":"The Lonely Queen Df the North",
-		"DESCRIPTION":"Apply !M! Weak to ALl enemies. NL Lose 1 Steel. NL If you lost Steel, NL ALL enemies lose !M! Strength. NL Exhaust."
+		"DESCRIPTION":"Накладывает !M! Слабости ВСЕМ врагам. NL Тратит 1 Сталь. NL ВСЕ враги теряют !M! Силы. NL Сжигается."
 	},
 	"rmod:punchline":{
 		"NAME":"The Key Attack",
-		"DESCRIPTION":"Whenever you play an Attack this turn, NL Apply !M! Vulnerable to the card's target."
+		"DESCRIPTION":"Когда вы разыгрываете Атаку, NL Накладывает !M! Уязвимости цели."
 	},
 	"rmod:saltedfish":{
 		"NAME":"Salted Fish",
-		"DESCRIPTION":"Unplayable. NL At the end of your turn, if you played less than !M! attacks, NL Gain 2 of each Resource."
+		"DESCRIPTION":"Неиграбельная. NL Даёт 2 каждого Ресурса в конце хода если вы разыграли меньше !M! Атак.."
 	},
 	"rmod:wife":{
 		"NAME":"Lexington Power",
-		"DESCRIPTION":"Gain [E] . NL Lose 1 Fuel. NL If you lost Fuel, NL The random card with the highest cost in your hand consumes 0 energy this turn. NL Exhaust.",
-		"UPGRADE_DESCRIPTION":"Gain [E] . NL Lose 1 Fuel. NL If you lost Fuel, NL The random card with the highest cost in your hand consumes 0 energy this turn."
+		"DESCRIPTION":"Даёт [E]. NL Отнимает 1 Топливо. NL Если отнимает Топливо, NL Понижает стоимость случайной карты с наибольшей ценой в руке до 0 на этот ход. NL Сжигается.",
+		"UPGRADE_DESCRIPTION":"Даёт [E]. NL Отнимает 1 Топливо. NL Если отнимает Топливо, NL Понижает стоимость случайной карты с наибольшей ценой в руке до 0 на этот ход."
 	},
 	"rmod:wolves":{
 		"NAME":"Wolf Pack Tactics",
-		"DESCRIPTION":"Deal !D! damage to ALL enemies. NL Apply !M! Vulnerable to ALL enemies."
+		"DESCRIPTION":"Наносит !D! урона ВСЕМ врагам. NL Накладывает !M! Уязвимости ВСЕМ врагам."
 	},
 	"rmod:highspeedshooting":{
-		"NAME":"High Speed Shooting",
-		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Ammunition. NL If you lost Ammunition, NL Add a copy of this card to your hand."
+		"NAME":"Скорострельная стрельба",
+		"DESCRIPTION":"Наносит !D! урона. NL Тратит 1 Боеприпас. NL Добавляет копию этой карты в руку."
 	},
 	"rmod:aviationdawn":{
 		"NAME":"Aviation Dawn",
-		"DESCRIPTION":"Add 1 Aircraft to your hand. NL Lose 1 Aluminum. NL If you lost Aluminium, NL add !M! aircraft to hand."
+		"DESCRIPTION":"Добавляет 1 Aircraft в руку. NL Тратит 1 Алюминий. NL Добавляет !M! aircraft в руку."
 	},
 	"rmod:diaomin":{
 		"NAME":"Fleet Training",
-		"DESCRIPTION":"Lose 1 Ammunition and Steel. NL Gain !M! Strength and Dexterity."
+		"DESCRIPTION":"Отнимает 1 Алюминий и Сталь. NL Даёт !M! Силы и Ловкости."
 	},
 	"rmod:smokecover":{
 		"NAME":"Smoke Cover",
-		"DESCRIPTION":"Gain !B! Block. NL Lose 1 Steel. NL If you lost Steel, NL Gain !M! Blur."
+		"DESCRIPTION":"Даёт !B! Защиты. NL Тратит 1 Сталь. NL Даёт !M! Blur."
 	},
 	"rmod:overbreakdown":{
 		"NAME":"Over Breakdown",
-		"DESCRIPTION":"Gain !B! Block. NL Gain 1 Steel."
+		"DESCRIPTION":"Даёт !B! Защиты. NL Даёт 1 Сталь."
 	},
 	"rmod:gendarmerie":{
 		"NAME":"Military Police",
-		"DESCRIPTION":"Gain !B! Block. NL End your turn."
+		"DESCRIPTION":"Даёт !B! Защиты. NL Заканчивает ход."
 	},
 	"rmod:generalist":{
 		"NAME":"Versatile Cruiser",
-		"DESCRIPTION":"Deal !D! damage. NL Gain !B! Block. NL Draw !M! card."
+		"DESCRIPTION":"Наносит !D! урона. NL Даёт !B! Защиты. NL Вы берёте !M! карты."
 	},
 	"rmod:bomber":{
 		"NAME":"aircraft",
-		"DESCRIPTION":"Deal !D! damage. NL Exhaust.",
-		"UPGRADE_DESCRIPTION":"Deal !D! damage to All enemies. NL Exhaust."
+		"DESCRIPTION":"Наносит !D! урона. NL Сжигается.",
+		"UPGRADE_DESCRIPTION":"Наносит !D! урона ВСЕМ врагам. NL Сжигается."
 	},
 	"rmod:supportaircraftcarrier":{
 		"NAME":"Support Aircraft Carrier",
-		"DESCRIPTION":"Gain 1 Aluminum. NL Add 1 random uncommon colorless card to your hand. NL It costs 0 this turn.",
-		"UPGRADE_DESCRIPTION":"Gain 1 Aluminum. NL Add 1 random rare colorless card to to your hand. NL It costs 0 this turn."
+		"DESCRIPTION":"Даёт 1 Алюминий. NL Добавляет 1 случайную необычную бесцветрую карту в руку. NL Она стоит 0 в этом ходу.",
+		"UPGRADE_DESCRIPTION":"Даёт 1 Алюминий. NL Добавляет 1 случайную необычную бесцветрую карту в руку. NL Она стоит 0 в этом ходу."
 	},
 	"rmod:shuttlebombing":{
 		"NAME":"Through Bombing",
 		"DESCRIPTION":"When a colorless card is played this turn, add a copy of it to your draw pile.",
-		"UPGRADE_DESCRIPTION":"Retain. NL When a colorless card is played this turn, add a copy of it to your draw pile."
+		"UPGRADE_DESCRIPTION":"Оставляется. NL When a colorless card is played this turn, add a copy of it to your draw pile."
 	},
 	"rmod:stealaluminum":{
-		"NAME":"Steal Aluminum",
-		"DESCRIPTION":"At start of your turn, NL Lose 1 Fuel. NL Gain !M! Aluminum."
+		"NAME":"Кража алюминия",
+		"DESCRIPTION":"В начале хода, NL Тратит 1 Топливо. NL Даёт !M! Алюминия."
 	},
 	"rmod:bulid":{
-		"NAME":"Build",
-		"DESCRIPTION":"Lose 1 of each Resource. NL Add 1 card to your hand from !M! cards of different rarities 3 times.."
+		"NAME":"Строить",
+		"DESCRIPTION":"Отнимает 1 каждого Ресурса. NL Добавляет 1 карту из !M! карт разных редкостей 3 раза."
 	},
 	"rmod:robin":{
-		"NAME":"Robin",
-		"DESCRIPTION":"Lose 1 Aluminum. NL If you lost Aluminium, NL Add 1 Aircraft that damage !M! the number of Aircraft you play this combat. NL (Minimum 5)",
-		"EXTENDED_DESCRIPTION":["(Deal !D! damage.)"]
+		"NAME":"Робин",
+		"DESCRIPTION":"Тратит 1 Алюминий. NL Добавляет 1 Aircraft с уроном равным количеству разыгранных Aircraft в бою, а именно !M!. NL (Минимум 5)",
+		"EXTENDED_DESCRIPTION":["(Наносит !D! урона.)"]
 	},
 	"rmod:victimresponsibility":{
 		"NAME":"Injured Characters",
-		"DESCRIPTION":"Gain !B! Block X times. (X is the number of aluminum.)"
+		"DESCRIPTION":"Даёт !B! Защиты X раз. (X - количество Алюминия.)"
 	},
 	"rmod:advancebysurprise":{
 		"NAME":"Assault",
-		"DESCRIPTION":"Lose up to !M! Aluminum. NL Add aircraft with twice the amount of lost Aluminum to hand."
+		"DESCRIPTION":"Тратит до !M! Алюминия. NL Add aircraft with twice the amount of lost Aluminum to hand."
 	},
 	"rmod:lastglory":{
 		"NAME":"Last Glory",
-		"DESCRIPTION":"Deal !D! damage. NL Gain 2 Ammunition. NL At the end of your turn, spend all remaining [E] . NL Reduce this card's cost this combat for all spent [E] ."
+		"DESCRIPTION":"Наносит !D! урона. NL Даёт 2 Боеприпаса. NL At the end of your turn, spend all remaining [E] . NL Reduce this card's cost this combat for all spent [E] ."
 	},
 	"rmod:supportescort":{
 		"NAME":"Support Escort",
-		"DESCRIPTION":"Gain !B! Block. NL Lose 1 Steel. NL If you lost Steel, NL When an attack is played this turn, gain !M! Block."
+		"DESCRIPTION":"Даёт !B! Защиты. NL Тратит 1 Сталь. NL Даёт !M! Защиты, когда вы разыгрываете Атаки в этом ходу."
 	},
 	"rmod:selfconfidence":{
 		"NAME":"Mysterious Confidence",
-		"DESCRIPTION":"Gain 1 Vulnerable. NL Deal !D! damage to All enemies."
+		"DESCRIPTION":"Даёт 1 Уязвимости. NL Наносит !D! урона ВСЕМ врагам."
 	},
 	"rmod:aggressivemary":{
 		"NAME":"Aggressive Mary",
-		"DESCRIPTION":"Deal !D! damage. NL The less life, the more damage."
+		"DESCRIPTION":"Наносит !D! урона. NL Чем меньше ОЗ, тем больше урона."
 	},
 	"rmod:combined":{
 		"NAME":"Joint Operations",
-		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Fuel. NL Draw X cards. NL (X is the number of the types of the cards played in this turn.)",
-		"EXTENDED_DESCRIPTION":["(draw !B! cards.)"]
+		"DESCRIPTION":"Наносит !D! урона. NL Тратит 1 Топливо. NL Вы берёте X карт. NL (X - количество разыгранных типов карт.)",
+		"EXTENDED_DESCRIPTION":["(Вы берёте !B! карту(ы).)"]
 	},
 	"rmod:tearstotiara":{
 		"NAME":"Triumph",
-		"DESCRIPTION":"Lose !D! HP."
+		"DESCRIPTION":"Отнимает !D! ОЗ."
 	},
 	"rmod:rockthrower":{
 		"NAME":"Sling",
-		"DESCRIPTION":"Deal !D! damage. NL Apply !M! Vulnerable. NL Double the effect in elite room and lose 1 Ammunition.",
-		"EXTENDED_DESCRIPTION":["Deal !D! damage. NL Apply 2 Vulnerable. NL Double the effect in elite room and lose 1 Ammunition.","Deal !D! damage. NL Apply 4 Vulnerable. NL Double the effect in elite room and lose 1 Ammunition."]
+		"DESCRIPTION":"Наносит !D! урона. NL Накладывает !M! Уязвимости. NL Удвоенный эффект на элитах и боссах, и отнятие 1 Боеприпаса.",
+		"EXTENDED_DESCRIPTION":["Наносит !D! урона. NL Накладывает 2 Уязвимости. NL Удвоенный эффект на этитах и боссах, и отнятие 1 Боеприпаса.","Наносит !D! урона. NL Накладывает 4 Уязвимости. NL Удвоенный эффект на этитах и боссах, и отнятие 1 Боеприпаса."]
 	},
 	"rmod:inadvertentlyimpact":{
 		"NAME":"Inadvertently impact",
-		"DESCRIPTION":"Deals damage equal to half your total Block.",
-		"UPGRADE_DESCRIPTION":"Deals damage equal to 80% of your total Block. NL Gain !B! Gold.",
-		"EXTENDED_DESCRIPTION":["（Deals !D! damage.）"]
+		"DESCRIPTION":"Наносит урон равный половине Защиты.",
+		"UPGRADE_DESCRIPTION":"Наносит урон равный 80% Защиты. NL Даёт !B! Золота.",
+		"EXTENDED_DESCRIPTION":["（Наносит !D! урона.）"]
 	},
 	"rmod:firesupport":{
-		"NAME":"Fire Support",
-		"DESCRIPTION":"Deal !D! damage. NL Gain !M! Ammunition."
+		"NAME":"Поддержка огнём",
+		"DESCRIPTION":"Наносит !D! урона. NL Даёт !M! Боеприпаса."
 	},
 	"rmod:concentratefire":{
-		"NAME":"Concentrate Fire",
-		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Ammunition. NL Apply !M! Concentrate Fire."
+		"NAME":"Сконцентрировать огонь",
+		"DESCRIPTION":"Наносит !D! урон. NL Тратит 1 Боеприпас и накладывает !M! Сконцентрировать огонь, если наносит урон по ОЗ."
 	},
 	"rmod:expeditionaryescort":{
 		"NAME":"The Expedition Escort",
-		"DESCRIPTION":"When you gain Resources ,draw 1 card."
+		"DESCRIPTION":"Вы берёте 1 карту, когда получаете Ресурс."
 	},
 	"rmod:ridicule":{
 		"NAME":"Mysterious Ridicule",
-		"DESCRIPTION":"Innate. NL Gain 2 Vulnerable. NL Gain [E] [E] . NL Draw !M! cards. NL Exhaust."
+		"DESCRIPTION":"Начальная. NL Даёт 2 Уязвимости. NL Даёт [E] [E] . NL Вы берёте !M! карты. NL Сжигается."
 	},
 	"rmod:highspeedmaneuver":{
 		"NAME":"High Speed Maneuver",
-		"DESCRIPTION":"Gain !B! Block !M! times. NL Exhaust. NL Lose 1 Steel. NL NL If you lost Steel, NL This card doesn't Exhaust."
+		"DESCRIPTION":"Даёт !B! Защиты !M! раза. NL Сжигается. NL Тратит 1 Сталь. NL Не Сжигается."
 	},
 	"rmod:wasp":{
-		"NAME":"Crazy Bee",
-		"DESCRIPTION":"Whenever you get damage, NL Add !M! aircraft to hand."
-	},
+		"NAME":"Безумная пчёлка",
+		"DESCRIPTION":"Добавляет !M! aircraft в руку, когда вы получаете урон."
+	}, //Та самая космическая анимешная
 	"rmod:supriseattacks":{
 		"NAME":"Suprise Attacks",
 		"DESCRIPTION":"Select a card fromm the exhaust pile and play it !M! time(s),and remove it from exhaust pile."
 	},
 	"rmod:sl":{
 		"NAME":"Save and load",
-		"DESCRIPTION":"Shuffle ALL your cards into your draw pile. NL Draw !M! cards."
+		"DESCRIPTION":"Перемешивает ВСЕ карты в стопке добора. NL Вы берёте !M! карты."
 	},
 	"rmod:u235":{
 		"NAME":"U235",
-		"DESCRIPTION":"Lose !M! HP. NL Gain 5 Fuel. NL Exhaust."
+		"DESCRIPTION":"Вы теряете !M! ОЗ. NL Даёт 5 Топлива. NL Сжигается."
 	},
 	"rmod:secretscript":{
-		"NAME":"Secret",
-		"DESCRIPTION":"If you play at least 4 cards in this turn, NL Gain [E] next turn.",
-		"UPGRADE_DESCRIPTION":"If you play at least 4 cards in this turn, NL Gain [E] [E] next turn."
+		"NAME":"Секрет",
+		"DESCRIPTION":" Даёт [E] на следующий ход, если вы разыграли меньше 4 карт в ходу.",
+		"UPGRADE_DESCRIPTION":"Даёт [E] [E] на следующий ход, если вы разыграли меньше 4 карт в ходу."
 	},
 	"rmod:acesubmarine":{
 		"NAME":"Ace Submarine",
-		"DESCRIPTION":"Deal !D! damage to ALL enemies. NL Apply !M! ExtraVulnerable to ALL enemies."
+		"DESCRIPTION":"Наносит !D! урона и накладывает !M! Доп. Уязвимости ВСЕМ врагам."
 	},
 	"rmod:abidefaith":{
 		"NAME":"Unswervingly",
-		"DESCRIPTION":"At the end of your turn, if you have less than 3 Ammunition, NL Gain !M! Strength. NL If you have less than 3 Fuel, NL Gain !M! Dexterity."
+		"DESCRIPTION":"В конце хода, даёт !M! Силы, если у вас меньше 3 Боеприпасов. NL Даёт !M! Ловкости, если у вас меньше 3 Стали."
 	},
 	"rmod:windflower":{
 		"NAME":"Wind Flower",
-		"DESCRIPTION":"The next !M! Attacks cost 0. NL Exhaust. NL Lose 1 Ammunition. NL If you lost Ammunition, this card doesn't Exhaust."
+		"DESCRIPTION":"Следующие !M! Атаки стоят 0. NL Сжигается. NL Тратит 1 Боеприпас. NL Не Сжигается."
 	},
 	"rmod:diamondstrike":{
-		"NAME":"Diamond Strike",
-		"DESCRIPTION":"Deal !D! damage. NL Add !M! Diamond to hand."
+		"NAME":"Алмазный удар",
+		"DESCRIPTION":"Наносит !D! урона. NL Добавляет !M! *Алмаза в руку."
 	},
 	"rmod:mineteam":{
-		"NAME":"The Torpedo Team",
-		"DESCRIPTION":"At start of your turn, apply !M! Vulnerable to a random enemy."
+		"NAME":"Торпедная команда",
+		"DESCRIPTION":"В начале хода, накладывает !M! Уязвимости случайному врагу."
 	},
 	"rmod:goodfighter":{
 		"NAME":"A Skilled Fighter",
-		"DESCRIPTION":"Deal !D! damage to random enemy 2X times."
+		"DESCRIPTION":"Наносит !D! урона случайному врагу 2X раз."
 	},
 	"rmod:spoils":{
 		"NAME":"Spoils Activity",
-		"DESCRIPTION":"Lose All Resources. NL Gain twice as much gold as the amount of lost Resources. NL Exhaust. "
+		"DESCRIPTION":"Отнимает ВСЕ Ресурсы. NL Даёт вдвое больше Золота, от отнятых Ресурсов. NL Сжигается. "
 	},
 	"rmod:slowdown":{
-		"NAME":"Slowly Operation",
+		"NAME":"Медленная операция",
 		"DESCRIPTION":"Add your previous !M! card(s) from the discard pile to hand."
 	},
 	"rmod:garrisonisland":{
 		"NAME":"Garrison Island",
-		"DESCRIPTION":"Deal !D! damage. NL Lose 1 Ammunition. NL If you lost Ammunition, NL Gain !M! Strength. NL At the end of this turn, lose !M! Strength."
+		"DESCRIPTION":"Наносит !D! урона. NL Тратит 1 Боеприпас. NL Даёт !M! Силы. NL В конце хода, отнимает !M! Силы."
 	},
 	"rmod:guardianhero":{
-		"NAME":"A Guardian Of Hero",
-		"DESCRIPTION":"Gain !B! Block. NL Decrease this card's Block by !M! this combat. NL Exhausts after being played 5 times."
+		"NAME":"Героический защитник",
+		"DESCRIPTION":"Даёт !B! Защиты. NL Уменьшает свою Защиту на !M! до конца боя. NL Сгорающая 5 ."
 	},
 	"rmod:intelligenceanalysis":{
 		"NAME":"Intelligence Analysis",
-		"DESCRIPTION":"Deal !D! damage to ALL enemies. NL If the enemy intends to attack, apply !M! Vulnerable. NL Otherwise, apply !M! Weak."
+		"DESCRIPTION":"Наносит !D! урона ВСЕМ врагам. NL Если враг  собирается Атаковать, накладывает !M! Уязвимости. NL Иначе, накладывает !M! Слабости."
 	},
 	"rmod:attackagain":{
 		"NAME":"Attack Again",
-		"DESCRIPTION":"Lose 5 Fuel ,Take an extra turn after this one."
+		"DESCRIPTION":"Тратит 5 Топлива. NL Даёт дополнительный ход."
 	},
 	"rmod:letitgo":{
 		"NAME":"Let it go",
-		"DESCRIPTION":"Lose 1 Fuel ,then let it go.",
-		"UPGRADE_DESCRIPTION":"Lose 1 Aluminum ,then let it go.",
-		"EXTENDED_DESCRIPTION":["Lose 1 Fuel /Aluminum ,then let it go."]
+		"DESCRIPTION":"Lose 1 Fuel, then let it go.",
+		"UPGRADE_DESCRIPTION":"Lose 1 Aluminum, then let it go.",
+		"EXTENDED_DESCRIPTION":["Lose 1 Fuel/Aluminum, then let it go."]
 	},
 	"rmod:callsupport":{
-		"NAME":"Call For Support",
-		"DESCRIPTION":"Lose 5 Aluminum ,Gain 1 AircraftSupport ."
+		"NAME":"Запрос поддержки",
+		"DESCRIPTION":"Тратит 5 Алюминия. NL Даёт 1 Авиаподдержку."
 	}
 }

@@ -3,42 +3,42 @@
 		"NAME":"First Charge Reward",
 		"FLAVOR":"A memorable first charge.",
 		"DESCRIPTIONS":[
-			"At the start of combat, gain #b1 of each #yResource."
+			"В начале сражения, даёт #b1 каждого #yРесурса."
 		]
 	},
 	"rmod:extraamm":{
 		"NAME":"Extra Ammunition",
 		"FLAVOR":"Learned to organize things",
 		"DESCRIPTIONS":[
-			"Ammunition limit changed to #b6."
+			"Повышает лимит боеприпасов до #b6."
 		]
 	},
 	"rmod:mogul":{
 		"NAME":"Da Lao",
 		"FLAVOR":"There is no one 648 can't solve。",
 		"DESCRIPTIONS":[
-			"Replaces First Charge Reward. At the start of battle, gain #b2 #yExpedition."
+			"Replaces First Charge Reward. В начале сражения, даёт #b2 #yЭкспедиции."
 		]
 	},
 	"rmod:equipmentrecovery":{
-		"NAME":"Equipment Recovery",
+		"NAME":"Восстановление снаряжения",
 		"FLAVOR":"Decomposition of a time.",
 		"DESCRIPTIONS":[
-			"For every 2 cards exhausted, gain #b1 random #yResource."
+			"Даёт #b1 случайного #yРесурса, каждые #b2 сожжённые карты."
 		]
 	},
 	"rmod:quickrepair":{
-		"NAME":"Quick Repair",
+		"NAME":"Быстрая починка",
 		"FLAVOR":"Instant bankruptcy.",
 		"DESCRIPTIONS":[
-			"When a debuff is obtained, it is immediately reduced by #b1."
+			"Уменьшает количество получаемых #yОтриц. #yЭффектов на #b1."
 		]
 	},
 	"rmod:monthlycard":{
-		"NAME":"Monthly Supply",
-		"FLAVOR":"Every day 1++.",
+		"NAME":"Месячная поддержка",
+		"FLAVOR":"Каждый день 1++.",
 		"DESCRIPTIONS":[
-			"At start of turn, gain #b1 #yFuel."
+			"В начале хода, даёт #b1 #yТоплива."
 		]
 	}
 

@@ -14,10 +14,10 @@
 			"You built it again."
 			],
 		"OPTIONS":[
-			"[build] #gGain 1 random rarity card.",
-			"[leave]",
-			"[build] #gGain 1 random rarity card. #rLose 10 gold.",
-			"[lock] Requires #b10 #ygold."
+			"[Построить] #gПолучить 1 карту случайной редкости.",
+			"[Уйти]",
+			"[Построить] #gПолучить 1 карту случайной редкости. #rПотратить 10 Золота.",
+			"[Закрыто] Требуется #b10 #yЗолота."
 			]
 	}
 

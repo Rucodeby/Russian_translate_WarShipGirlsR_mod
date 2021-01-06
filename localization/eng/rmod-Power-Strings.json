@@ -1,98 +1,98 @@
 {
 	"rmod:fuel":{
-		"NAME":"Fuel",
-		"DESCRIPTIONS":["Current amount： "," NL At the end of your turn, if you have #b5 Fuel: NL you can Lose #b5 #yFuel. NL Take an extra turn."]
+		"NAME":"Топливо",
+		"DESCRIPTIONS":["Хранится： "," NL В конце хода вы можете потратить #b5 #yТоплива на дополнительный ход."]
 	},
 	"rmod:ammunition":{
-		"NAME":"Ammunition",
-		"DESCRIPTIONS":["Current amount： "," NL Attacks deal 20% more damage for each ammunition."]
+		"NAME":"Боеприпасы",
+		"DESCRIPTIONS":["Хранится： "," NL Атаки наносят на 20% больше за каждый #yБоеприпас."]
 	},
 	"rmod:steel":{
-		"NAME":"Steel",
-		"DESCRIPTIONS":["Current amount： "," NL Gain 20% more Block for each Steel."]
+		"NAME":"Сталь",
+		"DESCRIPTIONS":["Хранится： "," NL Вы получаете на 20% больше #yЗащиты за каждую #yСталь."]
 	},
 	"rmod:aluminum":{
-		"NAME":"Aluminum",
-		"DESCRIPTIONS":["Current amount： "," NL At the end of your turn, if you have #b5 #yAluminum: NL you can Lose #b5 #yAluminum. NL Gain #b1 #yAir #ysupport."]
+		"NAME":"Алюминий",
+		"DESCRIPTIONS":["Хранится： "," NL В конце хода вы можете потратить #b5 #yАлюминия на #b1 #yАвиаподдержку."]
 	},
 	"rmod:expeditionpower":{
-		"NAME":"Expedtion",
-		"DESCRIPTIONS":["At start of turn, gain #b"," random Resource."]
+		"NAME":"Экспедиция",
+		"DESCRIPTIONS":["В начале хода, даёт #b"," случайных #yРесурсов."]
 	},
 	"rmod:chargemoneypower":{
-		"NAME":"Charge Money",
-		"DESCRIPTIONS":["At the start of your turn, add #b"," Diamond(s) to your hand."]
+		"NAME":"Сбор денег",
+		"DESCRIPTIONS":["В начале хода, добавляет #b"," Алмаз(а) в руку."]
 	},
 	"rmod:diamondspower":{
-		"NAME":"Diamond",
-		"DESCRIPTIONS":["At the start of your turn, add ","Diamond(s) to hand."]
+		"NAME":"Алмаз",
+		"DESCRIPTIONS":["В начале хода, добавляет "," Алмаз(а) в руку."]
 	},
 	"rmod:presspower":{
 		"NAME":"Squeeze",
-		"DESCRIPTIONS":["At the end of your turn, gain #b"," #yWeak and #yFragile."]
+		"DESCRIPTIONS":["В конце хода, даёт #b"," #yСлабости и #yУязвимости."]
 	},
 	"rmod:pillpower":{
-		"NAME":"Pills",
-		"DESCRIPTIONS":["Reserves 1 HP for you when mortally wounded."]
+		"NAME":"Таблеточки",
+		"DESCRIPTIONS":["Оставляет с 1 ОЗ при смертельном ударе."]
 	},
 	"rmod:goodsisterpower":{
-		"NAME":"Good Sisters",
+		"NAME":"Хорошие сестрёнки",
 		"DESCRIPTIONS":["Fletcher *Components Exhaust. NL When Components are Exhausted: NL Add *The *Best *Destroyers to your hand from your Draw pile or draw "," card(s)."]
 	},
 	"rmod:sealspower":{
 		"NAME":"Seal",
-		"DESCRIPTIONS":["At the end of your turn, select #b"," card(s) from your draw pile, it costs 0 until played and is placed at the top of draw pile."]
+		"DESCRIPTIONS":["В конце хода, выберите #b"," карту(ы) из стопки добора, уменьшите стоимость до 0, до разыгрывания, и положите на верх стопки добора."]
 	},
 	"rmod:punchlinepower":{
 		"NAME":"The Key Attack",
-		"DESCRIPTIONS":["Whenever you play an Attack this turn, apply #b"," Vulnerable to the card's target."]
+		"DESCRIPTIONS":["Накладывает #b"," #yУязвимости на цель разыгранной Атаки, в этом ходу."]
 	},
 	"rmod:aviationsupportpower":{
-		"NAME":"Air support",
-		"DESCRIPTIONS":["The first #b"," colorless card(s) played each turn is played twice."]
+		"NAME":"Авиаподдержка",
+		"DESCRIPTIONS":["Первая(ые) #b"," бесцветная(ые) карта(ы) разыгрываются дважды каждый ход."]
 	},
 	"rmod:shuttlebombingpower":{
 		"NAME":"Through Bombing",
-		"DESCRIPTIONS":["When a colorless card is played this turn, add "," copy of it to your draw pile."]
+		"DESCRIPTIONS":["Добавляет копию в стопку добора, следующие "," разыгранные Бесцветные карты, в этом ходу."]
 	},
 	"rmod:stealaluminumpower":{
-		"NAME":"Steal Aluminum",
-		"DESCRIPTIONS":["At start of your turn, gain #b"," Aluminum."]
+		"NAME":"Кража алюминия",
+		"DESCRIPTIONS":["В начале хода, даёт #b"," Алюминия."]
 	},
 	"rmod:fuelreducepower":{
-		"NAME":"Fuel Reduce",
-		"DESCRIPTIONS":["At start of your turn, lose #b"," Fuel."]
+		"NAME":"Уменьшение топлива",
+		"DESCRIPTIONS":["В начале хода, отнимает #b"," Топлива."]
 	},
 	"rmod:concentratefirepower":{
-		"NAME":"Concentrate Fire",
-		"DESCRIPTIONS":["Increases the more damage is taken. NL At the start of your turn, take #b"," damage."]
+		"NAME":"Сконцентрировать огонь",
+		"DESCRIPTIONS":["Увеличивается при получении урона по ОЗ. NL В конце вашего хода, наносит #b"," урона."]
 	},
 	"rmod:expenditionaryescortpower":{
 		"NAME":"Expedtion Escort",
-		"DESCRIPTIONS":["When you gain a resource, draw #b"," card(s)."]
+		"DESCRIPTIONS":["Вы берёте #b"," карту(ы), когда получаете ресурс."]
 	},
 	"rmod:wasppower":{
-		"NAME":"Crazy Bee",
-		"DESCRIPTIONS":["When you take damage, Add #b"," aircraft(s) to your hand."]
-	},
+		"NAME":"Безумная пчёлка",
+		"DESCRIPTIONS":["Добавляет #b"," aircraft(s) в руку, когда вы получаете урон."]
+	}, //Та самая космическая анимешная
 	"rmod:secretscriptpower":{
-		"NAME":"Secret",
-		"DESCRIPTIONS":["If you play at least 4 cards this turn, gain #b"," {E} next turn."]
+		"NAME":"Секрет",
+		"DESCRIPTIONS":["Даёт #b"," {E} на следующий ход, если вы разыграли меньше 4 карт в ходу."]
 	},
 	"rmod:extravulnpower":{
-		"NAME":"Extra Vulnerable",
-		"DESCRIPTIONS":["Damage taken increased by 50%."]
+		"NAME":"Доп. Уязвимость",
+		"DESCRIPTIONS":["Получаемый урон увеличен на 50%."]
 	},
 	"rmod:abidefaithpower":{
 		"NAME":"Unswervingly",
-		"DESCRIPTIONS":["At the end of your turn, if you have less than #b3 #yAmmunition, gain #b"," #yStrength. NL If you have less than #b3 #ySteel, gain #b"," #yDexterity."]
+		"DESCRIPTIONS":["В конце хода, даёт #b"," #yСилы, если у вас меньше 3 #yБоеприпасов. NL даёт #b"," #yЛовкости, если у вас меньше 3 #yСтали."]
 	},
 	"rmod:windflowerpower":{
 		"NAME":"不屈的迎风花",
 		"DESCRIPTIONS":["打出的下","张攻击牌在本场战斗伤害增加20%。"]
 	},
 	"rmod:mineteampower":{
-		"NAME":"The Torpedo Team",
-		"DESCRIPTIONS":["At the start of your turn, Apply #b"," #yVulnerable to a random enemy."]
+		"NAME":"Торпедная команда",
+		"DESCRIPTIONS":["В начале хода, накладывает #b"," #yУязвимости случайному врагу."]
 	}
 }

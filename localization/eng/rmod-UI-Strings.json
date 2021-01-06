@@ -1,7 +1,7 @@
 {
 	"rmod:SupriseAttacksAction":{
 		"TEXT":[
-			"Select 1 card to play."
+			"Выберите 1 карту которую хотите разыграть."
 		]
 	},
 	"rmod:NoviceGuideText":{
@@ -13,23 +13,23 @@
 	},
 	"rmod:aluminumLimit":{
 		"TEXT":[
-			"Aluminum to up to 5 layers, no more."
+			"Алюминия не может быть больше 5."
 			]
 	},
 	"rmod:ammunitionLimit":{
 		"TEXT":[
-			"Ammunition to up to ",
-			" layers, no more."
+			"Боеприпасов не может быть больше ",
+			"."
 			]
 	},
 	"rmod:steelLimit":{
 		"TEXT":[
-			"Steel to up to 5 layers, no more."
+			"Стали не может быть больше 5."
 			]
 	},
 	"rmod:fuelLimit":{
 		"TEXT":[
-			"Fuel to up to 5 layers, no more."
+			"Топлива не может быть больше 5."
 			]
 	}
 
