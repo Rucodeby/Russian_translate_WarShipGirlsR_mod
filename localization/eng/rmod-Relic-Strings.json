@@ -1,35 +1,35 @@
 {
 	"rmod:firstchargereward":{
-		"NAME":"First Charge Reward",
-		"FLAVOR":"A memorable first charge.",
+		"NAME":"Награда первого разряда",
+		"FLAVOR":"Памятник первому разряду.",
 		"DESCRIPTIONS":[
 			"В начале сражения, даёт #b1 каждого #yРесурса."
 		]
 	},
 	"rmod:extraamm":{
-		"NAME":"Extra Ammunition",
-		"FLAVOR":"Learned to organize things",
+		"NAME":"Запасные боеприпасы",
+		"FLAVOR":"Научились организовывать пространство.",
 		"DESCRIPTIONS":[
 			"Повышает лимит боеприпасов до #b6."
 		]
 	},
 	"rmod:mogul":{
 		"NAME":"Da Lao",
-		"FLAVOR":"There is no one 648 can't solve。",
+		"FLAVOR":"Нет того, что 648 не порешит.",
 		"DESCRIPTIONS":[
-			"Replaces First Charge Reward. В начале сражения, даёт #b2 #yЭкспедиции."
+			"Заменяет #yНаграду #yпервого #yразряда. В начале сражения, даёт #b2 #yЭкспедиции."
 		]
 	},
 	"rmod:equipmentrecovery":{
 		"NAME":"Восстановление снаряжения",
-		"FLAVOR":"Decomposition of a time.",
+		"FLAVOR":"Рсзложение времени.",
 		"DESCRIPTIONS":[
 			"Даёт #b1 случайного #yРесурса, каждые #b2 сожжённые карты."
 		]
 	},
 	"rmod:quickrepair":{
 		"NAME":"Быстрая починка",
-		"FLAVOR":"Instant bankruptcy.",
+		"FLAVOR":"Чики брики ты банкрот.",
 		"DESCRIPTIONS":[
 			"Уменьшает количество получаемых #yОтриц. #yЭффектов на #b1."
 		]

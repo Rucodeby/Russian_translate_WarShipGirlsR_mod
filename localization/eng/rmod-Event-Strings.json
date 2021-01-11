@@ -1,17 +1,17 @@
 {
 	"rmod:noviceguide":{
-		"NAME":"Free to build",
+		"NAME":"Бесплатная стройка",
 		"DESCRIPTIONS":[
-			"A woman suddenly appears in your sight, takes out a square machine and forces you to click on it. Finally, she says you can 'build' it for free. You decide...",
-			"There seems no danger and you decide to follow her instructions. NL ",
-			"The chair she was sitting on snapped and she fell over. You used the break to get away.",
-			"The machine glowed #ygold and seemed lucky.",
-			"The machine flashed #bblue and seemed ok.",
-			"The machine glowed white, as if out of luck.",
-			"You are not satisfied with the result. NL \"You can still build, but then you'll have to pay a price\" The woman said.",
-			"You're so happy with the result that you walk away satisfied.",
-			"You angrily hit the machine and the woman curses at you.",
-			"You built it again."
+			"Внезапно вы видите девушку, которая достала квадратную машинку и заставила нажать на неё. Наконец, наконец она говорит, вы можете \"постротить\" такую бесплатно. Вы думаете...",
+			"Вроде, опасности нет и вы решаете следовать её указаниям. NL ",
+			"Её стул сломался и она грохнулась с него на пол. Вы сбегаете под этот шум.",
+			"Машина светится #yзолотеньким и видимо, это большая удачка.",
+			"Машина мигала #bсиненьким и видимо, это средняя удачка.",
+			"Машина светится [#F0F0F0]беленьким и видимо, это малая удачка.",
+			"Вы не удовотлерены результатом. NL \"Я может построить ещё разок, но придётся дать денежку\", - сказала девушка.",
+			"Вы очень довольны результатом, говорите \"Спасибо\" девушке и уходите.",
+			"Вы от злости ударили эту чёртову машину. NL Девушка проклинает вас",
+			"Вы ещё раз её построили."
 			],
 		"OPTIONS":[
 			"[Построить] #gПолучить 1 карту случайной редкости.",

@@ -28,7 +28,7 @@
 		"DESCRIPTIONS":["В начале хода, добавляет "," Алмаз(а) в руку."]
 	},
 	"rmod:presspower":{
-		"NAME":"Squeeze",
+		"NAME":"Отжимание",
 		"DESCRIPTIONS":["В конце хода, даёт #b"," #yСлабости и #yУязвимости."]
 	},
 	"rmod:pillpower":{
@@ -37,14 +37,14 @@
 	},
 	"rmod:goodsisterpower":{
 		"NAME":"Хорошие сестрёнки",
-		"DESCRIPTIONS":["Fletcher *Components Exhaust. NL When Components are Exhausted: NL Add *The *Best *Destroyers to your hand from your Draw pile or draw "," card(s)."]
+		"DESCRIPTIONS":["*Компоненты *стрелка Сжигаются. NL Вы берёте *Лучших *уничтожителей в руку из стопки добора или берёте "," карту(ы), когда сжигаются Компоненты."]
 	},
 	"rmod:sealspower":{
-		"NAME":"Seal",
+		"NAME":"Котик",
 		"DESCRIPTIONS":["В конце хода, выберите #b"," карту(ы) из стопки добора, уменьшите стоимость до 0, до разыгрывания, и положите на верх стопки добора."]
 	},
 	"rmod:punchlinepower":{
-		"NAME":"The Key Attack",
+		"NAME":"Кульминация",
 		"DESCRIPTIONS":["Накладывает #b"," #yУязвимости на цель разыгранной Атаки, в этом ходу."]
 	},
 	"rmod:aviationsupportpower":{
@@ -52,7 +52,7 @@
 		"DESCRIPTIONS":["Первая(ые) #b"," бесцветная(ые) карта(ы) разыгрываются дважды каждый ход."]
 	},
 	"rmod:shuttlebombingpower":{
-		"NAME":"Through Bombing",
+		"NAME":" Через бомбадировку",
 		"DESCRIPTIONS":["Добавляет копию в стопку добора, следующие "," разыгранные Бесцветные карты, в этом ходу."]
 	},
 	"rmod:stealaluminumpower":{
@@ -68,12 +68,12 @@
 		"DESCRIPTIONS":["Увеличивается при получении урона по ОЗ. NL В конце вашего хода, наносит #b"," урона."]
 	},
 	"rmod:expenditionaryescortpower":{
-		"NAME":"Expedtion Escort",
+		"NAME":"Эскорт экспедиции",
 		"DESCRIPTIONS":["Вы берёте #b"," карту(ы), когда получаете ресурс."]
 	},
 	"rmod:wasppower":{
 		"NAME":"Безумная пчёлка",
-		"DESCRIPTIONS":["Добавляет #b"," aircraft(s) в руку, когда вы получаете урон."]
+		"DESCRIPTIONS":["Добавляет #b"," *Авиацию(и) в руку, когда вы получаете урон."]
 	}, //Та самая космическая анимешная
 	"rmod:secretscriptpower":{
 		"NAME":"Секрет",
@@ -84,11 +84,11 @@
 		"DESCRIPTIONS":["Получаемый урон увеличен на 50%."]
 	},
 	"rmod:abidefaithpower":{
-		"NAME":"Unswervingly",
+		"NAME":"Неукосьнительно",
 		"DESCRIPTIONS":["В конце хода, даёт #b"," #yСилы, если у вас меньше 3 #yБоеприпасов. NL даёт #b"," #yЛовкости, если у вас меньше 3 #yСтали."]
 	},
 	"rmod:windflowerpower":{
-		"NAME":"不屈的迎风花",
+		"NAME":"Цветок ветра",
 		"DESCRIPTIONS":["打出的下","张攻击牌在本场战斗伤害增加20%。"]
 	},
 	"rmod:mineteampower":{
