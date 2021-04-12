@@ -1,6 +1,7 @@
 # Russian_translate_WarShipGirlsR_mod
 
-# https://steamcommunity.com/sharedfiles/filedetails/?id=2169956243
+# Оригинальный мод
+https://steamcommunity.com/sharedfiles/filedetails/?id=2169956243
 
 ### Инструкция:
 
