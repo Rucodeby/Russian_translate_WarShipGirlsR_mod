@@ -1,5 +1,3 @@
-# Russian_translate_WarShipGirlsR_mod
-
 # Оригинальный мод
 https://steamcommunity.com/sharedfiles/filedetails/?id=2169956243
 
@@ -10,3 +8,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2169956243
 - Архив мода в стим версии Steam\SteamApps\workshop\content\646570\2169956243.
 
 - Архив мода в расширении jar (Пример Lobotomy.jar). 
+
+###### Видеоинструкция
+
+https://www.youtube.com/watch?v=bBMtYdGAk0g
